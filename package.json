@@ -11,8 +11,7 @@
     "backend-install": " npm install",
     "frontend-install": "cd client && npm install",
     "install-all": "concurrently \"npm start backend-install\" \"npm start frontend-install\"",
-    "dev": "concurrently \"npm run start\" \"npm run client\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "author": "Abhishek Pal",
   "license": "ISC",

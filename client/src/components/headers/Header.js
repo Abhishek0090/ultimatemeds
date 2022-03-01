@@ -5,6 +5,7 @@ import Close from './icon/close.svg'
 import Cart from './icon/cart.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import "./header.css"
 
 function Header() {
     const state = useContext(GlobalState)
@@ -52,7 +53,8 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? 'Admin' : ' Ultimed'}</Link>
+                    <Link to="/">{isAdmin ? 'Admin' : "ULTIMED"
+                    }</Link>
                 </h1>
             </div>
 

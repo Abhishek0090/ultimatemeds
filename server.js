@@ -25,7 +25,7 @@ app.use('/api', require('./routes/paymentRouter'))
 
 
 // Connect to mongodb
-const URI = "mongodb+srv://abhi:abhi@cluster0.drajh.mongodb.net/ultimed"
+const URI = "mongodb+srv://abhi:abhi@cluster0.dvbyg.mongodb.net/ultimeds"
 mongoose.connect(URI, {  
     useCreateIndex: true,
     useFindAndModify: false,
