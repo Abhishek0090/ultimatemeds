@@ -53,7 +53,7 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? 'Admin' : "ULTIMED"
+                    <Link to="/">{isAdmin ? 'Admin' : <img src='./img/logoo.png' className="logoimg"alt="logo"/>
                     }</Link>
                 </h1>
             </div>

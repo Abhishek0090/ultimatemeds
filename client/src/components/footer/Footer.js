@@ -7,7 +7,8 @@ const Footer = () => {
     <footer id="footer">
       <div className="leftFooter">
         <h4>Payment Partner</h4>
-        <img src="" alt="" />
+        
+        <img src="./img/paypal.png" alt="" />
       </div>
 
       <div className="midFooter">
@@ -20,7 +21,6 @@ const Footer = () => {
       <div className="rightFooter">
         <h4>Follow Us</h4>
         <a href="http://instagram.com/abhishek_xx1">Instagram</a>
-        <a href="http://youtube.com">Youtube</a>
         <a href="http://facebook.com">Facebook</a>
       </div>
     </footer>

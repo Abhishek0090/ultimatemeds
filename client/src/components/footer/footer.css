@@ -39,7 +39,7 @@ footer {
   .midFooter > h1 {
     font-size: 3vmax;
     font-family: "Roboto";
-    color: #eb4034;
+    color: #000000;
   }
   .midFooter > p {
     max-width: 60%;
@@ -72,3 +72,8 @@ footer {
     color: #eb4034;
   }
   
+.imgfooter{
+  height: 300px;
+  width: 500px;
+  filter: invert();
+}
