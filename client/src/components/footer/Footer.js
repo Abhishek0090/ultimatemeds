@@ -15,7 +15,7 @@ const Footer = () => {
         <h1>Ultimed</h1>
         <p>Meds for everyone</p>
 
-        <p>Copyrights 2021 &copy; ultimed</p>
+        <p>Copyrights 2022 &copy; ultimed</p>
       </div>
 
       <div className="rightFooter">

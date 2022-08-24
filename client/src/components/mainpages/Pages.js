@@ -6,12 +6,14 @@ import Login from './auth/Login'
 import Register from './auth/Register'
 import OrderHistory from './history/OrderHistory'
 import OrderDetails from './history/OrderDetails'
+import OrderConfirmed from './cart/OrderConfirmed'
 import Cart from './cart/Cart'
 import NotFound from './utils/not_found/NotFound'
 import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
 
 import {GlobalState} from '../../GlobalState'
+import OrderPlaced from './cart/OrderPlaced'
 
 
 function Pages() {
@@ -36,6 +38,8 @@ function Pages() {
             <Route path="/history/:id" exact component={isLogged ? OrderDetails : NotFound} />
 
             <Route path="/cart" exact component={Cart} />
+            <Route path="/orderConfirmed" exact component={OrderConfirmed}/>
+            <Route path="/orderPlaced" exact component={OrderPlaced}/>
 
 
             <Route path="*" exact component={NotFound} />
